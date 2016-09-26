@@ -1,0 +1,66 @@
+body {
+  color: $main-font;
+  font-family: 'Raleway', sans-serif;
+  min-width: 1170px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  margin-top: 0;
+}
+
+h5 {
+  color: $grey-font;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 5px;
+}
+
+.txt-green {
+  font-weight: bold;
+  color: $green;
+}
+
+a, a:hover, a:focus {
+  outline: medium none;
+  text-decoration: none;
+}
+
+.row-fluid {
+  margin-bottom: 40px;
+}
+
+.main {
+  margin: 75px 0 0 250px;
+  padding: 20px;
+  & > h2 {
+    margin-bottom: 33px;
+  }
+}
+
+pre {
+  background-color: $background-grey;
+  border: medium none;
+}
+
+code.hljs {
+  background-color: $background-grey;
+}
+
+textarea {
+  border: 1px solid #ddd;
+  @include border-radius(3px);
+  margin: 10px 0 20px;
+  min-height: 120px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1170px) {
+  .nav-right {
+    display: none;
+  }
+}
+

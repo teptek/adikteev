@@ -1,0 +1,45 @@
+# Bower
+# -----------------------
+bower_components
+
+# Bower
+# -----------------------
+node_modules
+
+
+# OSX files
+# -----------------------
+
+.settings
+*.sublime*
+.externalToolBuilders
+.buildpath
+.project
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?git
+ehthumbs.db
+Thumbs.db
+[#]*[#]
+.[#]*
+.*.sw?
+*~
+*.bak
+*.dll
+*.exe
+*.so
+*.out
+*.obj
+*.o
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+*.log
+.svn
+.idea

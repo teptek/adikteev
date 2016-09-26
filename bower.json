@@ -1,0 +1,22 @@
+{
+  "name": "adikteev",
+  "authors": [
+    "Tep Chann Nimmith"
+  ],
+  "description": "Backoffice SaaS",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "fontawesome#^4.6.3",
+    "jquery-sticky": "sticky#^1.0.3"
+  }
+}

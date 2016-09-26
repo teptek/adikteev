@@ -1,0 +1,83 @@
+.btn {
+  background-color: $blue;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  &:hover, &:focus {
+    color: white;
+    background-color: darken($blue, 10%);
+  }
+  &.green {
+    background-color: $green;
+    &:hover, &:focus {
+      color: white;
+      background-color: darken($green, 10%);
+    }
+  }
+  &.btn-ico {
+    padding: 10px 20px 10px 10px;
+    i {
+      font-size: 1.5rem;
+      margin-right: 8px;
+      position: relative;
+      top: 1px;
+    }
+  }
+}
+
+.radio-btn {
+  background-color: #dddddd;
+  @include border-radius(30px);
+  cursor: pointer;
+  height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55px;
+  &::after {
+    color: #999999;
+    content: "OFF";
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 9px;
+    margin-top: 2px;
+  }
+  &::before {
+    background-color: #ffffff;
+    @include border-radius(30px);
+    content: "";
+    display: inline-block;
+    float: left;
+    height: 18px;
+    margin-left: 2px;
+    margin-top: 2px;
+    width: 18px;
+  }
+  &.active {
+    background-color: $green;
+    &::before {
+      background-color: rgba(0, 0, 0, 0);
+      color: #ffffff;
+      content: "ON";
+      display: inline-block;
+      float: left;
+      font-size: 11px;
+      font-weight: bold;
+      margin-left: 10px;
+      margin-top: 3px;
+    }
+    &::after {
+      background-color: #ffffff;
+      @include border-radius(30px);
+      content: "";
+      display: inline-block;
+      float: right;
+      height: 18px;
+      margin-right: 2px;
+      margin-top: 2px;
+      top: 26px;
+      width: 18px;
+    }
+  }
+}

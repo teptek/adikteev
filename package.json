@@ -1,0 +1,22 @@
+{
+  "name": "adikteev",
+  "version": "1.0.0",
+  "description": "Backend SaaS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-notify": "^2.2.0",
+    "gulp-ruby-sass": "^2.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "devDependencies": {
+    "gulp-uglify": "^1.5.4"
+  }
+}

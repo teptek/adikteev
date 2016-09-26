@@ -1,0 +1,27 @@
+.nav-top {
+  background-color: $black;
+  height: 65px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: calc(100% - 250px);
+  z-index: 1;
+}
+
+.nav-account {
+  padding: 20px;
+  float: right;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  span {
+    margin: 5px 10px;
+  }
+  .fa {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+  }
+}

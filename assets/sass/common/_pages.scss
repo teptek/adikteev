@@ -1,0 +1,150 @@
+.content {
+  width: calc(100% - 270px);
+}
+
+#config-btn {
+  float: right;
+  margin-bottom: 20px;
+}
+
+#config {
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+.tab-content {
+  margin: 40px 0;
+}
+
+.tabtitle {
+  float: left;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.mcontent {
+  .format-img {
+    background-image: url('../img/m-content.jpg');
+  }
+  &:hover, &:focus {
+    .format-img {
+      background-image: url('../img/m-content_hover.gif');
+      cursor: pointer;
+    }
+  }
+}
+
+.mstory {
+  .format-img {
+    background-image: url('../img/m-story.jpg');
+  }
+  &:hover, &:focus {
+    .format-img {
+      background-image: url('../img/m-story_hover.gif');
+      cursor: pointer;
+    }
+  }
+}
+
+.mstory-max {
+  .format-img {
+    background-image: url('../img/m-story_max.jpg');
+  }
+  &:hover, &:focus {
+    .format-img {
+      background-image: url('../img/m-story_max_hover.gif');
+      cursor: pointer;
+    }
+  }
+}
+
+.mstory-play {
+  .format-img {
+    background-image: url('../img/m-story_play.jpg');
+  }
+  &:hover, &:focus {
+    .format-img {
+      background-image: url('../img/m-story_play_hover.gif');
+      cursor: pointer;
+    }
+  }
+}
+
+.format-img {
+  background-color: $background-grey;
+  @include border-radius(3px);
+  height: 100px;
+  width: 120px;
+  vertical-align: middle;
+  display: table-cell;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 95% auto;
+}
+
+.format-content {
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 20px;
+  .fa {
+    font-size: 1.4rem;
+    margin-right: 5px;
+  }
+  & > h4 {
+    margin-top: 0;
+    display: inline;
+    color: $main-font;
+  }
+  & > span {
+    font-size: 1rem;
+    letter-spacing: 0.005em;
+    margin-left: 10px;
+    opacity: 1;
+    text-transform: uppercase;
+    display: none;
+    font-weight: bold;
+    color: $green;
+    top: -1px;
+    position: relative;
+  }
+  p {
+    color: $main-font;
+    margin: 0;
+  }
+  &:hover, &:focus {
+    cursor: pointer;
+    h4 {
+      color: $blue;
+    }
+    & > span {
+      display: inline;
+    }
+  }
+}
+
+.format-action {
+  display: table-cell;
+  vertical-align: middle;
+  width: 56px;
+}
+
+.middle-content > div {
+  display: table;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.nav-right-content {
+  padding: 20px;
+  label {
+    cursor: pointer;
+    margin-bottom: 20px;
+    & > i {
+      font-size: 1.2rem;
+      font-style: normal;
+    }
+  }
+}
+
